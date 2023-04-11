@@ -6,7 +6,7 @@ public class Ciudad {
 	
 	public Ciudad(String nombre) {
 		super();
-		this.setNombre(nombre);
+		this.nombre = nombre;
 	}
 
 	public static void main(String[] args) {
@@ -20,14 +20,6 @@ public class Ciudad {
 
 		Garaje garaje = new Garaje("Garaje1");
 		garaje.aparcar(vehiculos);
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
 	}
 	
 	

@@ -10,8 +10,8 @@ public class Garaje {
 	public Garaje(String nombre) {
 		super();
 		this.nombre = nombre;
-		setPlazasCoches(new Coche[2]);
-		setPlazasMotos(new Moto[2]);
+		plazasCoches = new Coche[2];
+		plazasMotos = new Moto[2];
 		plazasBicis = new Bicicleta[2];
 	}
 	
@@ -19,8 +19,8 @@ public class Garaje {
 			int numPlazasBicis) {
 		super();
 		this.nombre = nombre;
-		setPlazasCoches(new Coche[numPlazasCoche]);
-		setPlazasMotos(new Moto[numPlazasMoto]);
+		plazasCoches = new Coche[numPlazasCoche];
+		plazasMotos = new Moto[numPlazasMoto];
 		plazasBicis = new Bicicleta[numPlazasBicis];
 	}
 
@@ -57,22 +57,6 @@ public class Garaje {
 			}
 		}
 		
-	}
-
-	public Coche [] getPlazasCoches() {
-		return plazasCoches;
-	}
-
-	public void setPlazasCoches(Coche [] plazasCoches) {
-		this.plazasCoches = plazasCoches;
-	}
-
-	public Moto [] getPlazasMotos() {
-		return plazasMotos;
-	}
-
-	public void setPlazasMotos(Moto [] plazasMotos) {
-		this.plazasMotos = plazasMotos;
 	}
 	
 }
