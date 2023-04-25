@@ -9,5 +9,4 @@ public class Test {
 		cliente1.apellidos="Apellido1";
 		//cliente1.edad = 19;
 	}
-
 }
