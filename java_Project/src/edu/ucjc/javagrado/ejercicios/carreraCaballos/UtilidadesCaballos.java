@@ -1,4 +1,4 @@
-package edu.ucjc.javagrado.ejercicios.carreracaballos;
+package edu.ucjc.javagrado.ejercicios.carreraCaballos;
 
 public class UtilidadesCaballos {
 	
